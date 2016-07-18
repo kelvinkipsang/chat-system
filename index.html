@@ -19,7 +19,9 @@
     <script type="text/javascript">$(document).ready(function(){
             $("button").click(function(){
                  var messg= $("textarea").val();
-                alert("messg")
+                var old=$("#content").html();
+                
+                $("#content").html(old + messg);
             });
         });
     </script>
@@ -47,7 +49,7 @@
             
         
     </div>
-    
+     
     </div>
 
 
