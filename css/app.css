@@ -26,10 +26,10 @@ h1{
     border: 1px solid #bdbdbd;
     border-radius: 4px;
 }
-.message{
+.messg{
     margin;1em 0  0 0;
 }
-.message textarea{
+.messg textarea{
     border: none;
     padding:6px;
     text-decoration: none;
@@ -40,5 +40,8 @@ margin: 1em;
      border-radius: 5px;
      padding: 4px;
      background-color: darkslategrey;
-     color: silver
+     color: silver;
+}
+button{
+    cursor: pointer;
 }
